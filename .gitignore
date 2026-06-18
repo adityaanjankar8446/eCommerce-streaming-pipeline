@@ -1,0 +1,29 @@
+# Delta and Parquet data files
+data/delta/
+data/raw/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Spark temp files
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
